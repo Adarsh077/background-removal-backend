@@ -1,6 +1,6 @@
 FROM python:3.7-slim-stretch
 
-ENV PORT 8080
+ENV PORT 5000
 RUN apt-get -y update && apt-get -y install build-essential && apt -y install cmake && apt-get install -y poppler-utils
 
 WORKDIR /usr/src/app
